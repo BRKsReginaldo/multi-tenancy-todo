@@ -1,0 +1,7 @@
+FROM ambientum/php
+
+WORKDIR '/app'
+
+COPY ./ ./
+
+CMD ["php", "artisan", "serve"]

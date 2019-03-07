@@ -1,0 +1,26 @@
+{
+    "name": "service-tasks",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+        "koa": "^2.7.0",
+        "koa-router": "^7.4.0",
+        "koa-bodyparser": "^4.2.1",
+        "knex": "^0.16.3",
+        "lodash": "^4.17.11",
+        "pg": "^7.8.2",
+        "uuid": "^3.3.2",
+        "objection": "^1.6.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    },
+    "keywords": [],
+    "author": "Reginaldo Junior <reginaldo.junior696@gmail.com>",
+    "license": "ISC"
+}
